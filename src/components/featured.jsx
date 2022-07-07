@@ -24,7 +24,7 @@ function Featured(){
                 featured.map((recipe, index) => {
                     return (
                         <div key={index}>
-                            <h1>{recipe.title}</h1>
+                            <h5>{recipe.title}</h5>
                         </div>
                     )
                 })
